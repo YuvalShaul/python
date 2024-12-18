@@ -27,10 +27,6 @@ git clone https://github.com/YuvalShaul/python.git
 cd python/util
 source install_docker_ubuntu
 ```
-- Install jupyterhub:
-```
-source install_jupyterhub
-```
 
 ## RUN
 - CD to directory:
