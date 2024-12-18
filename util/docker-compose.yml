@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+  jupyterhub:
+    build:
+      context: ..
+      dockerfile: ./util/Dockerfile
+    command: bash /etc/jupyterhub/start.sh
+    container_name: jupyterhub
+    volumes:
+    - jupyterhub_data:/data
+    - /var/run/docker.sock:/var/run/docker.sock
+    - ./config:/etc/jupyterhub
+
+    ports:
+      - "8000:8000"
+    environment:
+      - DOCKER_JUPYTER_IMAGE=jupyter/minimal-notebook:latest
+    restart: unless-stopped
+    networks:
+      - jupyterhub-network
+
+networks:
+  jupyterhub-network:
+    driver: bridge
+
+volumes:
+  jupyterhub_data:

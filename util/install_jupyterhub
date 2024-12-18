@@ -1,0 +1,7 @@
+mkdir -f jupyterhub
+cd jupyterhub
+
+sudo apt-get update
+sudo apt-get install docker-compose-plugin
+
+docker compose up -d
