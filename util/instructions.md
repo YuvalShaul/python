@@ -24,7 +24,7 @@ git clone https://github.com/YuvalShaul/python.git
 ```
 - Install docker using a script:
 ```
-cd analysis/util
+cd python/util
 source install_docker_ubuntu
 ```
 
