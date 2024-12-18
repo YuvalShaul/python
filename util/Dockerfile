@@ -1,5 +1,5 @@
 FROM jupyterhub/jupyterhub:latest
-WORKDIR /analysis
+WORKDIR /python
 
 # Install necessary packages
 RUN pip install jupyter-server notebook jupyterlab
@@ -8,5 +8,5 @@ RUN pip install pandas
 RUN pip install matplotlib
 RUN pip install scipy
 
-COPY . /analysis
+COPY . /python
 
