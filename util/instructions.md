@@ -20,7 +20,7 @@ sudo apt install git-all
 ```
 - Clone the analysis repository:
 ```
-git clone https://github.com/YuvalShaul/analysis.git
+git clone https://github.com/YuvalShaul/python.git
 ```
 - Install docker using a script:
 ```
