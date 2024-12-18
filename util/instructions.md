@@ -29,7 +29,10 @@ source install_docker_ubuntu
 ```
 
 ## RUN
-
+- CD to directory:
+```
+cd python/util
+```
 - Start docker compose:
 ```
 docker compose up -d
