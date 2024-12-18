@@ -18,7 +18,7 @@ which is the admin.
 sudo apt-get update
 sudo apt install git-all
 ```
-- Clone the analysis repository:
+- Clone the python repository:
 ```
 git clone https://github.com/YuvalShaul/python.git
 ```
