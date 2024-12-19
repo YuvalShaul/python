@@ -35,9 +35,8 @@ useradd -m -s /bin/bash student30|| echo "User student30 already exists"
 
 # Print the credentials
 echo "=========================="
-echo "Credentials:"
-echo "User: yuval  Password: pass_yuval"
-echo "User: john   Password: pass_john"
+echo "To get credentials type (on the host):"
+echo "cat /etc/jupyterhub/passwords.json"
 echo "=========================="
 
 # Start JupyterHub
