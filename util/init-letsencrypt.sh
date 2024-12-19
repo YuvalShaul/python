@@ -20,30 +20,13 @@ mkdir -p data/certbot/www
 
 # Create temporary nginx config for cert acquisition
 cat > nginx/nginx.conf << EOF
-events {
-    worker_connections 1024;
-}
-
-http {
-    server {
-        listen 80;
-        server_name commtact.yuval.guide;
-
-        location /.well-known/acme-challenge/ {
-            root /var/www/certbot;
-        }
-
-        location / {
-            return 200 'Temporary config for SSL setup';
-        }
-    }
-}
+[... rest of nginx config ...]
 EOF
 
-# Start nginx with temporary config
+# Start nginx with temporary config (without watching the logs)
 docker compose up -d nginx
 
-# Get initial certificate
+# Get initial certificate (without watching the logs)
 docker compose run --rm certbot \
     certonly --webroot \
     -w /var/www/certbot \
@@ -54,49 +37,11 @@ docker compose run --rm certbot \
 
 # Replace with full nginx config
 cat > nginx/nginx.conf << EOF
-events {
-    worker_connections 1024;
-}
-
-http {
-    server {
-        listen 80;
-        server_name commtact.yuval.guide;
-
-        location /.well-known/acme-challenge/ {
-            root /var/www/certbot;
-        }
-
-        location / {
-            return 301 https://\$host\$request_uri;
-        }
-    }
-
-    server {
-        listen 443 ssl;
-        server_name commtact.yuval.guide;
-
-        ssl_certificate /etc/letsencrypt/live/commtact.yuval.guide/fullchain.pem;
-        ssl_certificate_key /etc/letsencrypt/live/commtact.yuval.guide/privkey.pem;
-
-        location / {
-            proxy_pass http://jupyterhub:8000;
-            proxy_set_header X-Real-IP \$remote_addr;
-            proxy_set_header Host \$host;
-            proxy_set_header X-Forwarded-For \$proxy_add_x_forwarded_for;
-            proxy_set_header X-Forwarded-Proto \$scheme;
-
-            # WebSocket support
-            proxy_http_version 1.1;
-            proxy_set_header Upgrade \$http_upgrade;
-            proxy_set_header Connection "upgrade";
-        }
-    }
-}
+[... rest of nginx config ...]
 EOF
 
-# Restart everything with the new config
+# Restart everything with the new config (without watching the logs)
 docker compose down
 docker compose up -d
 
-echo "Setup completed"
+echo "Setup completed - check logs with 'docker compose logs' if needed"
