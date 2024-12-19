@@ -13,30 +13,31 @@ c = get_config()
 class MyDummyAuthenticator(DummyAuthenticator):
     def __init__(self):
         super().__init__()
-        self.passwords = {
-            'yuval': 'yuval'  # admin keeps simple password
-        }
+        self._load_or_generate_passwords()
         
-        # Generate and store student passwords
-        for i in range(1, 31):
-            username = f"student{i}"
-            # Generate random 8-char password: 2 uppercase, 2 lowercase, 2 digits, 2 special
-            password = (
-                random.choices(string.ascii_uppercase, k=2) +
-                random.choices(string.ascii_lowercase, k=2) +
-                random.choices(string.digits, k=2) +
-                random.choices('!@#$%^&*', k=2)
-            )
-            # Shuffle the characters
-            random.shuffle(password)
-            # Convert to string
-            password = ''.join(password)
-            self.passwords[username] = password
-        
-        # Save passwords to a file
-        with open('/etc/jupyterhub/passwords.json', 'w') as f:
-            json.dump(self.passwords, f, indent=4)
+    def _load_or_generate_passwords(self):
+        """Generate new passwords only if passwords.json doesn't exist"""
+        password_file = '/etc/jupyterhub/passwords.json'
+        if os.path.exists(password_file):
+            with open(password_file, 'r') as f:
+                self.passwords = json.load(f)
+        else:
+            self.passwords = {'yuval': 'yuval'}
+            for i in range(1, 31):
+                username = f"student{i}"
+                password = (
+                    random.choices(string.ascii_uppercase, k=2) +
+                    random.choices(string.ascii_lowercase, k=2) +
+                    random.choices(string.digits, k=2) +
+                    random.choices('!@#$%^&*', k=2)
+                )
+                random.shuffle(password)
+                self.passwords[username] = ''.join(password)
             
+            # Save new passwords
+            with open(password_file, 'w') as f:
+                json.dump(self.passwords, f, indent=4)
+    
     async def authenticate(self, handler, data):
         username = data['username']
         password = data['password']
