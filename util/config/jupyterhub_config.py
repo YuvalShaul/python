@@ -11,8 +11,8 @@ print('Loading this file!!!')
 c = get_config()
 
 class MyDummyAuthenticator(DummyAuthenticator):
-    def __init__(self):
-        super().__init__()
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
         self._load_or_generate_passwords()
         
     def _load_or_generate_passwords(self):
@@ -44,7 +44,7 @@ class MyDummyAuthenticator(DummyAuthenticator):
         if username in self.passwords and password == self.passwords[username]:
             return username
         return None
-
+    
 # Authentication settings
 c.JupyterHub.authenticator_class = MyDummyAuthenticator
 c.Authenticator.admin_users = {'yuval'}
