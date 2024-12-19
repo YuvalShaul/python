@@ -12,7 +12,7 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
       - ./config:/etc/jupyterhub
     expose:
-      - "8000"  # Changed from ports to expose
+      - "8000"
     environment:
       - DOCKER_JUPYTER_IMAGE=jupyter/minimal-notebook:latest
     restart: unless-stopped
@@ -33,18 +33,6 @@ services:
     restart: unless-stopped
     networks:
       - jupyterhub-network
-    command: "/bin/sh -c 'while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g \"daemon off;\"'"
-
-  certbot:
-    image: certbot/certbot
-    volumes:
-      - ./data/certbot/conf:/etc/letsencrypt
-      - ./data/certbot/www:/var/www/certbot
-    depends_on:
-      - nginx
-    networks:
-      - jupyterhub-network
-    entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'"
 
 networks:
   jupyterhub-network:

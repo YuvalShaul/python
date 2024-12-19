@@ -5,8 +5,6 @@ if systemctl is-active --quiet apache2; then
     echo "Stopping Apache..."
     sudo systemctl stop apache2
     sudo systemctl disable apache2
-    echo "Apache stopped and disabled"
-else
     echo "Apache is not running"
 fi
 
@@ -18,15 +16,13 @@ staging=0  # Set to 1 if you're testing
 mkdir -p data/certbot/conf
 mkdir -p data/certbot/www
 
-# Create temporary nginx config for cert acquisition
-cat > nginx/nginx.conf << EOF
-[... rest of nginx config ...]
-EOF
+# Use HTTP-only config
+cp nginx/nginx.http.conf nginx/nginx.conf
 
-# Start nginx with temporary config (without watching the logs)
+# Start nginx with HTTP config
 docker compose up -d nginx
 
-# Get initial certificate (without watching the logs)
+# Get initial certificate
 docker compose run --rm certbot \
     certonly --webroot \
     -w /var/www/certbot \
@@ -35,13 +31,11 @@ docker compose run --rm certbot \
     ${staging:+"--staging"} \
     ${domains[@]/#/-d }
 
-# Replace with full nginx config
-cat > nginx/nginx.conf << EOF
-[... rest of nginx config ...]
-EOF
+# Switch to HTTPS config
+cp nginx/nginx.https.conf nginx/nginx.conf
 
-# Restart everything with the new config (without watching the logs)
+# Restart everything with the new config
 docker compose down
 docker compose up -d
 
-echo "Setup completed - check logs with 'docker compose logs' if needed"
+echo "Setup completed"
