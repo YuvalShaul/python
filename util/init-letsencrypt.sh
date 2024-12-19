@@ -24,6 +24,5 @@ sudo certbot certonly --standalone \
 
 # Start your regular docker compose setup with HTTPS config
 cp nginx/nginx.https.conf nginx/nginx.conf
-docker compose up -d
 
 echo "Setup completed"

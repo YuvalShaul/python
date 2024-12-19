@@ -27,8 +27,14 @@ git clone https://github.com/YuvalShaul/python.git
 cd python/util
 source install_docker_ubuntu
 ```
+## HTTPS Setup
+- Run the HTTPS setup script (this will automatically stop Apache if it's running):
+```
+cd python/util
+bash init-letsencrypt.sh
+```
 
-## RUN
+## RUN Jupyterhub
 - CD to directory:
 ```
 cd python/util
@@ -37,4 +43,10 @@ cd python/util
 ```
 docker compose up -d
 ```
+You can now access JupyterHub securely at https://commtact.yuval.guide
 
+## Certificate Renewal
+Let's Encrypt certificates are valid for 90 days. To renew:
+```
+sudo certbot renew
+```
