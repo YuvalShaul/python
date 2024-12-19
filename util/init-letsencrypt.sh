@@ -9,10 +9,10 @@ mkdir -p data/certbot/conf
 mkdir -p data/certbot/www
 
 # Stop existing containers
-docker-compose down
+docker compose down
 
 # Get initial certificate
-docker-compose run --rm certbot \
+docker compose run --rm certbot \
     certonly --webroot \
     -w /var/www/certbot \
     --email $email \
@@ -21,4 +21,4 @@ docker-compose run --rm certbot \
     ${domains[@]/#/-d }
 
 # Start services
-docker-compose up -d
+docker compose up -d
