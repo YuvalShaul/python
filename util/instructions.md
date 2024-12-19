@@ -48,11 +48,13 @@ You can now access JupyterHub securely at https://commtact.yuval.guide
 ## Get student passwords
 - type:  
 ```
-cat /etc/jupyterhub/passwords.json
+cat /home/ubuntu/python/util/config/passwords.json
 ```
 - If you want to recreate the passwords:
 ```
-sudo rm /etc/jupyterhub/passwords.json
+docker compose down
+rm /home/ubuntu/python/util/config/passwords.json
+docker compose up -d
 ```
 (these are on the host, not inside a container)
 
