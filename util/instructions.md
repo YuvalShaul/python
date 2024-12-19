@@ -45,6 +45,18 @@ docker compose up -d
 ```
 You can now access JupyterHub securely at https://commtact.yuval.guide
 
+## Get student passwords
+- type:  
+```
+docker exec -it jupyterhub cat /etc/jupyterhub/passwords.json
+```
+- If you want to recreate the passwords:
+```
+sudo rm /etc/jupyterhub/passwords.json
+```
+(these are on the host, not inside a container)
+
+
 ## Certificate Renewal
 Let's Encrypt certificates are valid for 90 days. To renew:
 ```
