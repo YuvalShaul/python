@@ -33,10 +33,32 @@ useradd -m -s /bin/bash student28|| echo "User student28 already exists"
 useradd -m -s /bin/bash student29|| echo "User student29 already exists"
 useradd -m -s /bin/bash student30|| echo "User student30 already exists"
 
+
+# Function to clone repository for a user
+setup_repo() {
+    username=$1
+    # Clone repo if it doesn't exist
+    if [ ! -d "/home/$username/python" ]; then
+        su - $username -c "git clone https://github.com/YuvalShaul/python.git  /home/$username/python"
+    else
+        # Update if it exists
+        su - $username -c "cd /home/$username/python && git pull"
+    fi
+    # Ensure correct ownership
+    chown -R $username:$username /home/$username/python
+}
+
+# Set up repo for all users
+setup_repo yuval
+for i in {1..30}; do
+    setup_repo "student$i"
+done
+
+
 # Print the credentials
 echo "=========================="
 echo "To get credentials type (on the host):"
-echo "cat /etc/jupyterhub/passwords.json"
+echo "cat /home/ubuntu/python/util/config/passwords.json"
 echo "=========================="
 
 # Start JupyterHub
