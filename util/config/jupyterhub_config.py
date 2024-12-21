@@ -22,7 +22,7 @@ class MyDummyAuthenticator(DummyAuthenticator):
             with open(password_file, 'r') as f:
                 self.passwords = json.load(f)
         else:
-            self.passwords = {'yuval': 'yuval'}
+            self.passwords = {'yuval': '7fg46&*(^gf[p9R'}
             for i in range(1, 31):
                 username = f"student{i}"
                 password = (
@@ -55,7 +55,8 @@ c.Authenticator.allowed_users = names_dict
 # Basic Configuration
 c.JupyterHub.ip = '0.0.0.0'
 c.JupyterHub.port = 8000
-c.Spawner.notebook_dir = '/python'
+# c.Spawner.notebook_dir = '/python'
+c.Spawner.notebook_dir = '/home/{username}'
 
 # Spawner settings
 c.JupyterHub.spawner_class = 'jupyterhub.spawner.LocalProcessSpawner'
