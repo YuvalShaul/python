@@ -55,11 +55,11 @@ c.Authenticator.allowed_users = names_dict
 # Basic Configuration
 c.JupyterHub.ip = '0.0.0.0'
 c.JupyterHub.port = 8000
-# c.Spawner.notebook_dir = '/python'
-c.Spawner.notebook_dir = '/home/{username}'
 
 # Spawner settings
 c.JupyterHub.spawner_class = 'jupyterhub.spawner.LocalProcessSpawner'
+c.LocalProcessSpawner.username_template = '{username}'
+c.LocalProcessSpawner.notebook_dir = '/home/{username}'
 
 # Security settings
 c.JupyterHub.log_level = 'DEBUG'
