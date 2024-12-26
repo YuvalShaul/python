@@ -39,6 +39,10 @@ bash init-letsencrypt.sh
 ```
 cd python/util
 ```
+- If you want to build the image again:
+```
+docker compose build
+```
 - Start docker compose:
 ```
 docker compose up -d
