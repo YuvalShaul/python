@@ -1,0 +1,1001 @@
+product,country,status,quantity
+SmartPhone,USA,Shipped,3
+headphones,UK,Shipped,9
+TV,Germany,Processing,5
+Tablet,Canada,Shipped,8
+laptop,CANADA,Shipped,7
+laptop,United Kingdom,Delivered,8
+Laptop,United Kingdom,Delivered,7
+Headphones,CANADA,Delivered,3
+Tablet,U.S.A.,Pending,2
+TV,UK,Delivered,7
+Laptop,U.S.A.,Pending,3
+headphones,France,Pending,3
+television,Germany,Processing,2
+laptop,USA,Pending,4
+laptop,Canada,Delivered,8
+laptop,Germany,Delivered,1
+SmartPhone,USA,Shipped,1
+smartphone,U.K.,Cancelled,5
+Smartphone,Germany,Pending,5
+LAPTOP,USA,Delivered,1
+Tablet,United Kingdom,Processing,6
+Laptop,U.S.A.,Delivered,1
+LAPTOP,Germany,Processing,5
+SmartPhone,France,Pending,9
+Smartphone,Germany,Delivered,5
+Television,UK,Shipped,6
+laptop,Germany,Delivered,8
+smartphone,CANADA,Processing,1
+Tablet,United States,Shipped,2
+Laptop,CANADA,Delivered,9
+Tablet,USA,Shipped,3
+laptop,U.K.,Delivered,6
+Laptop,U.S.A.,Delivered,5
+Headphones,USA,Processing,2
+headphones,USA,Delivered,7
+television,United Kingdom,Shipped,4
+SmartPhone,United States,Pending,1
+Laptop,Canada,Shipped,4
+TV,USA,Shipped,6
+Smartphone,United States,Shipped,7
+Laptop,UK,Cancelled,7
+Smartphone,Canada,Delivered,7
+Laptop,United States,Delivered,3
+Headphones,United Kingdom,Pending,6
+LAPTOP,Germany,Cancelled,8
+TV,United Kingdom,Delivered,4
+SmartPhone,U.S.A.,Pending,8
+smartphone,USA,Delivered,2
+smartphone,Germany,Delivered,9
+laptop,USA,Pending,9
+headphones,Germany,Delivered,8
+Television,UK,Delivered,1
+Headphones,Germany,Shipped,2
+Headphones,Canada,Processing,6
+Tablet,France,Delivered,5
+Headphones,United States,Delivered,9
+Laptop,Canada,Delivered,5
+laptop,UK,Delivered,2
+Laptop,UK,Delivered,4
+SmartPhone,United Kingdom,Delivered,9
+SmartPhone,Germany,Pending,1
+LAPTOP,France,Delivered,1
+television,Canada,Delivered,7
+SmartPhone,UK,Delivered,3
+LAPTOP,UK,Pending,2
+smartphone,Canada,Delivered,9
+Laptop,U.S.A.,Shipped,3
+television,USA,Shipped,2
+Laptop,United States,Shipped,8
+headphones,U.S.A.,Shipped,6
+Television,U.S.A.,Delivered,6
+laptop,U.S.A.,Delivered,7
+Laptop,USA,Shipped,7
+television,USA,Cancelled,6
+TV,France,Cancelled,4
+TV,UK,Cancelled,9
+Television,United States,Shipped,6
+Laptop,United Kingdom,Delivered,4
+SmartPhone,U.S.A.,Processing,3
+Laptop,Germany,Delivered,4
+Headphones,Canada,Pending,3
+Tablet,USA,Pending,2
+SmartPhone,UK,Delivered,5
+Laptop,Germany,Processing,2
+SmartPhone,Germany,Delivered,6
+SmartPhone,UK,Delivered,3
+TV,United Kingdom,Pending,6
+Tablet,USA,Delivered,9
+Headphones,France,Delivered,1
+Smartphone,U.S.A.,Delivered,6
+Laptop,Germany,Delivered,9
+TV,United Kingdom,Processing,4
+Television,United Kingdom,Shipped,2
+Tablet,UK,Delivered,4
+Television,U.S.A.,Shipped,1
+Smartphone,USA,Delivered,3
+smartphone,U.S.A.,Delivered,9
+Smartphone,USA,Delivered,5
+Laptop,Canada,Delivered,6
+Laptop,United States,Delivered,3
+Laptop,USA,Processing,5
+Tablet,France,Delivered,8
+SmartPhone,Germany,Shipped,6
+smartphone,Germany,Delivered,4
+Headphones,France,Delivered,2
+laptop,USA,Shipped,9
+Smartphone,United States,Cancelled,1
+Television,Canada,Processing,1
+laptop,United Kingdom,Shipped,4
+Laptop,USA,Processing,7
+LAPTOP,CANADA,Pending,1
+laptop,U.S.A.,Shipped,9
+Headphones,U.S.A.,Shipped,4
+television,UK,Cancelled,3
+Tablet,U.K.,Delivered,1
+Headphones,U.K.,Shipped,4
+television,USA,Delivered,9
+laptop,Germany,Delivered,6
+Headphones,U.S.A.,Pending,6
+smartphone,USA,Cancelled,1
+television,Germany,Delivered,2
+Headphones,France,Delivered,6
+SmartPhone,Germany,Processing,2
+Laptop,CANADA,Delivered,3
+laptop,United Kingdom,Processing,4
+Smartphone,U.K.,Delivered,5
+television,USA,Delivered,9
+Headphones,UK,Shipped,4
+Laptop,United States,Cancelled,9
+smartphone,U.S.A.,Delivered,3
+Smartphone,Canada,Shipped,8
+laptop,UK,Pending,1
+Laptop,USA,Delivered,9
+SmartPhone,U.S.A.,Delivered,9
+Headphones,United Kingdom,Delivered,2
+SmartPhone,USA,Cancelled,4
+smartphone,Germany,Pending,8
+TV,UK,Delivered,7
+SmartPhone,UK,Shipped,1
+headphones,U.K.,Cancelled,5
+headphones,CANADA,Delivered,7
+LAPTOP,United States,Delivered,4
+Smartphone,United Kingdom,Delivered,1
+SmartPhone,U.K.,Shipped,9
+LAPTOP,U.S.A.,Delivered,5
+Laptop,Germany,Delivered,2
+Tablet,Canada,Delivered,8
+smartphone,United Kingdom,Delivered,2
+Laptop,Germany,Delivered,3
+LAPTOP,Germany,Delivered,1
+Headphones,Canada,Shipped,2
+laptop,CANADA,Shipped,7
+Laptop,United Kingdom,Delivered,2
+Smartphone,United Kingdom,Delivered,6
+headphones,United Kingdom,Pending,3
+laptop,Canada,Shipped,4
+TV,USA,Pending,8
+Television,Germany,Shipped,3
+laptop,Germany,Delivered,6
+TV,USA,Delivered,1
+SmartPhone,CANADA,Delivered,7
+Tablet,USA,Delivered,8
+Tablet,United States,Delivered,8
+smartphone,Canada,Delivered,3
+Laptop,USA,Delivered,1
+television,CANADA,Processing,9
+SmartPhone,CANADA,Delivered,6
+laptop,UK,Pending,9
+Laptop,USA,Delivered,7
+Tablet,U.S.A.,Shipped,1
+TV,United Kingdom,Delivered,1
+Laptop,France,Pending,6
+smartphone,United Kingdom,Shipped,5
+laptop,U.S.A.,Cancelled,9
+Tablet,United Kingdom,Shipped,2
+laptop,UK,Delivered,8
+TV,Canada,Shipped,5
+SmartPhone,USA,Delivered,2
+Headphones,Canada,Delivered,6
+Laptop,UK,Delivered,8
+SmartPhone,France,Shipped,4
+Laptop,United States,Shipped,2
+Headphones,United Kingdom,Pending,5
+Headphones,Germany,Shipped,2
+LAPTOP,USA,Delivered,2
+TV,Germany,Processing,6
+television,United Kingdom,Cancelled,9
+Tablet,USA,Delivered,4
+smartphone,United States,Delivered,6
+laptop,Canada,Delivered,7
+Laptop,USA,Shipped,6
+Headphones,U.K.,Processing,8
+Headphones,United States,Delivered,4
+Tablet,United Kingdom,Delivered,1
+SmartPhone,USA,Pending,7
+SmartPhone,Germany,Delivered,3
+TV,France,Delivered,6
+Headphones,France,Cancelled,2
+Headphones,Canada,Delivered,9
+Television,USA,Delivered,1
+Tablet,Canada,Processing,6
+Laptop,USA,Pending,6
+laptop,USA,Delivered,5
+Headphones,United States,Pending,5
+Tablet,UK,Delivered,1
+Laptop,Canada,Processing,5
+Laptop,United Kingdom,Shipped,2
+TV,UK,Cancelled,7
+Laptop,U.S.A.,Shipped,3
+laptop,France,Processing,4
+smartphone,UK,Delivered,3
+TV,UK,Delivered,3
+TV,USA,Pending,4
+laptop,Canada,Processing,5
+TV,United Kingdom,Delivered,1
+laptop,U.S.A.,Shipped,4
+SmartPhone,USA,Delivered,8
+TV,United Kingdom,Shipped,7
+Tablet,United Kingdom,Cancelled,9
+television,U.S.A.,Pending,5
+TV,France,Delivered,4
+Tablet,USA,Delivered,8
+Laptop,UK,Pending,9
+SmartPhone,Germany,Shipped,7
+LAPTOP,UK,Pending,7
+laptop,United Kingdom,Delivered,5
+headphones,United States,Shipped,4
+SmartPhone,U.S.A.,Delivered,1
+Headphones,France,Shipped,7
+Tablet,UK,Shipped,1
+Television,Germany,Delivered,1
+smartphone,U.S.A.,Pending,5
+Tablet,U.S.A.,Processing,9
+Smartphone,USA,Cancelled,6
+laptop,United Kingdom,Delivered,3
+TV,United States,Delivered,3
+LAPTOP,Germany,Cancelled,7
+Laptop,UK,Shipped,6
+Tablet,France,Pending,9
+laptop,USA,Shipped,6
+Headphones,Germany,Delivered,5
+headphones,Canada,Pending,7
+Headphones,Canada,Delivered,1
+SmartPhone,CANADA,Processing,7
+Laptop,Canada,Cancelled,3
+Headphones,United Kingdom,Delivered,9
+Smartphone,USA,Pending,6
+headphones,USA,Delivered,9
+headphones,Germany,Delivered,5
+Headphones,United Kingdom,Pending,7
+LAPTOP,Canada,Pending,4
+SmartPhone,UK,Processing,7
+Headphones,USA,Delivered,1
+SmartPhone,USA,Delivered,7
+laptop,United Kingdom,Cancelled,8
+Tablet,UK,Delivered,5
+Headphones,U.S.A.,Delivered,2
+TV,UK,Delivered,5
+Tablet,USA,Shipped,6
+Laptop,U.K.,Delivered,2
+Tablet,U.S.A.,Delivered,6
+headphones,Canada,Delivered,6
+Laptop,United States,Cancelled,1
+smartphone,UK,Delivered,1
+Headphones,USA,Delivered,3
+TV,USA,Delivered,3
+TV,United States,Delivered,4
+TV,UK,Delivered,2
+SmartPhone,United Kingdom,Shipped,9
+LAPTOP,U.S.A.,Delivered,7
+television,United Kingdom,Pending,7
+television,Germany,Delivered,6
+Headphones,Canada,Delivered,3
+Headphones,USA,Delivered,6
+smartphone,UK,Processing,8
+smartphone,USA,Delivered,8
+Television,U.S.A.,Delivered,9
+Tablet,France,Delivered,1
+TV,USA,Delivered,1
+Television,UK,Pending,3
+Headphones,United Kingdom,Shipped,3
+SmartPhone,Canada,Delivered,8
+SmartPhone,U.K.,Delivered,1
+Laptop,USA,Pending,2
+Tablet,United States,Pending,2
+Laptop,UK,Shipped,3
+Smartphone,USA,Processing,6
+smartphone,United States,Shipped,1
+LAPTOP,USA,Delivered,2
+Tablet,USA,Shipped,1
+Laptop,United States,Delivered,5
+Laptop,USA,Shipped,7
+television,U.K.,Shipped,8
+SmartPhone,United Kingdom,Delivered,1
+Laptop,CANADA,Pending,7
+smartphone,U.S.A.,Pending,5
+Television,USA,Shipped,1
+laptop,USA,Pending,3
+Tablet,United Kingdom,Pending,7
+Laptop,Canada,Shipped,1
+Laptop,USA,Delivered,7
+smartphone,Germany,Delivered,5
+smartphone,USA,Delivered,1
+Tablet,UK,Shipped,1
+TV,Canada,Processing,1
+headphones,Germany,Delivered,9
+smartphone,Canada,Pending,3
+SmartPhone,CANADA,Delivered,5
+Television,United States,Pending,9
+LAPTOP,CANADA,Shipped,6
+Smartphone,USA,Delivered,9
+Laptop,Germany,Cancelled,8
+Laptop,UK,Delivered,8
+headphones,CANADA,Delivered,1
+television,UK,Processing,9
+TV,United Kingdom,Pending,6
+Smartphone,UK,Shipped,9
+laptop,Canada,Delivered,3
+laptop,USA,Delivered,3
+LAPTOP,USA,Delivered,6
+smartphone,U.S.A.,Processing,9
+TV,USA,Delivered,7
+TV,Germany,Delivered,3
+LAPTOP,U.S.A.,Shipped,3
+headphones,France,Delivered,2
+TV,United States,Processing,9
+Tablet,USA,Delivered,3
+Tablet,Canada,Pending,5
+Smartphone,United Kingdom,Delivered,9
+laptop,UK,Pending,8
+SmartPhone,U.K.,Shipped,2
+Television,Canada,Pending,3
+Laptop,U.S.A.,Delivered,2
+Laptop,France,Delivered,8
+Laptop,France,Pending,6
+Laptop,United Kingdom,Delivered,6
+Headphones,USA,Delivered,9
+TV,United Kingdom,Delivered,8
+Smartphone,USA,Pending,4
+Laptop,USA,Delivered,4
+Smartphone,U.S.A.,Delivered,9
+Smartphone,UK,Pending,1
+laptop,Germany,Pending,2
+Smartphone,Canada,Delivered,2
+SmartPhone,Canada,Processing,6
+Tablet,UK,Delivered,4
+Tablet,United States,Delivered,3
+Laptop,United States,Delivered,3
+SmartPhone,France,Delivered,3
+Tablet,USA,Pending,6
+smartphone,Germany,Delivered,8
+Headphones,U.K.,Processing,7
+TV,UK,Delivered,4
+laptop,Canada,Cancelled,4
+Laptop,UK,Delivered,2
+Tablet,Germany,Pending,1
+Laptop,Germany,Processing,9
+Tablet,UK,Pending,2
+Headphones,U.S.A.,Delivered,8
+Tablet,U.K.,Pending,9
+SmartPhone,Germany,Pending,4
+Tablet,U.S.A.,Delivered,8
+Smartphone,United Kingdom,Shipped,9
+smartphone,United Kingdom,Delivered,5
+Headphones,Canada,Delivered,7
+SmartPhone,USA,Pending,4
+headphones,Canada,Pending,1
+Headphones,Germany,Delivered,3
+laptop,USA,Shipped,5
+Laptop,U.S.A.,Delivered,3
+Laptop,France,Delivered,7
+Laptop,USA,Delivered,9
+Laptop,Germany,Delivered,6
+TV,UK,Delivered,1
+Laptop,U.S.A.,Delivered,7
+SmartPhone,Germany,Shipped,3
+television,UK,Shipped,5
+Laptop,UK,Delivered,4
+television,United States,Delivered,5
+LAPTOP,U.K.,Delivered,5
+Laptop,USA,Delivered,6
+TV,United States,Cancelled,6
+Tablet,France,Processing,8
+Headphones,U.S.A.,Delivered,8
+TV,United Kingdom,Shipped,9
+television,United States,Delivered,8
+LAPTOP,Canada,Delivered,2
+laptop,USA,Delivered,1
+Television,France,Delivered,2
+television,UK,Delivered,2
+headphones,U.S.A.,Delivered,3
+Smartphone,USA,Shipped,7
+SmartPhone,USA,Delivered,2
+Television,UK,Pending,1
+SmartPhone,United States,Cancelled,6
+Headphones,CANADA,Shipped,9
+Headphones,UK,Shipped,3
+Smartphone,U.S.A.,Pending,6
+Television,United Kingdom,Delivered,3
+Television,Canada,Delivered,1
+Laptop,USA,Shipped,5
+Headphones,USA,Pending,4
+smartphone,USA,Delivered,7
+television,Canada,Shipped,6
+SmartPhone,United Kingdom,Delivered,7
+Headphones,UK,Delivered,5
+SmartPhone,CANADA,Delivered,4
+Laptop,CANADA,Shipped,7
+Headphones,U.K.,Processing,7
+Laptop,Germany,Delivered,6
+SmartPhone,U.S.A.,Delivered,8
+headphones,USA,Pending,4
+headphones,U.S.A.,Delivered,5
+Tablet,USA,Pending,4
+Tablet,UK,Delivered,1
+Smartphone,Germany,Processing,8
+LAPTOP,USA,Delivered,1
+SmartPhone,USA,Pending,5
+TV,UK,Pending,6
+Television,Germany,Delivered,6
+Television,United States,Shipped,5
+Television,UK,Pending,3
+Laptop,USA,Delivered,5
+Smartphone,USA,Delivered,8
+Laptop,France,Shipped,2
+smartphone,France,Processing,6
+Smartphone,USA,Pending,9
+Headphones,France,Processing,8
+SmartPhone,United Kingdom,Shipped,8
+Laptop,Germany,Cancelled,8
+Laptop,UK,Delivered,7
+Television,UK,Delivered,8
+Tablet,UK,Processing,6
+Laptop,United Kingdom,Shipped,2
+Laptop,USA,Processing,2
+TV,USA,Delivered,8
+Laptop,United States,Delivered,1
+television,Canada,Shipped,6
+TV,U.S.A.,Delivered,6
+Laptop,United Kingdom,Shipped,4
+Laptop,France,Delivered,3
+headphones,USA,Delivered,3
+SmartPhone,United Kingdom,Delivered,1
+SmartPhone,UK,Delivered,3
+television,Germany,Delivered,4
+Headphones,USA,Shipped,5
+headphones,United Kingdom,Shipped,3
+Television,CANADA,Shipped,6
+SmartPhone,Germany,Pending,5
+Laptop,United Kingdom,Shipped,3
+Television,UK,Shipped,6
+Tablet,United Kingdom,Processing,6
+Smartphone,Germany,Delivered,8
+Headphones,U.K.,Shipped,2
+Laptop,USA,Delivered,1
+Smartphone,Germany,Pending,4
+Laptop,United Kingdom,Delivered,7
+Smartphone,United Kingdom,Delivered,3
+Laptop,U.S.A.,Delivered,3
+Laptop,United Kingdom,Delivered,5
+Laptop,United States,Processing,5
+Tablet,United Kingdom,Cancelled,3
+TV,USA,Delivered,9
+Tablet,United Kingdom,Delivered,4
+headphones,France,Delivered,3
+SmartPhone,USA,Shipped,2
+LAPTOP,France,Delivered,9
+Headphones,UK,Pending,4
+laptop,Germany,Delivered,3
+headphones,Canada,Delivered,7
+Laptop,U.K.,Shipped,8
+headphones,Canada,Processing,2
+Laptop,Germany,Processing,7
+Headphones,UK,Delivered,5
+smartphone,United States,Delivered,5
+headphones,United Kingdom,Cancelled,3
+Laptop,CANADA,Pending,5
+Tablet,Canada,Delivered,2
+headphones,Canada,Pending,4
+smartphone,UK,Delivered,6
+Tablet,CANADA,Shipped,1
+TV,USA,Cancelled,4
+Smartphone,UK,Processing,6
+Tablet,USA,Pending,9
+Tablet,United States,Delivered,2
+Headphones,United States,Processing,7
+Laptop,United States,Delivered,6
+LAPTOP,United Kingdom,Cancelled,2
+headphones,United States,Delivered,8
+Headphones,UK,Delivered,7
+Smartphone,U.S.A.,Shipped,5
+Tablet,United States,Shipped,5
+LAPTOP,U.S.A.,Delivered,7
+laptop,USA,Delivered,9
+Smartphone,United Kingdom,Delivered,9
+SmartPhone,United Kingdom,Delivered,9
+Tablet,United Kingdom,Delivered,6
+Laptop,UK,Cancelled,6
+headphones,United States,Processing,3
+headphones,Germany,Delivered,1
+TV,UK,Delivered,7
+smartphone,UK,Delivered,4
+SmartPhone,USA,Delivered,1
+television,United States,Processing,8
+TV,United States,Shipped,6
+laptop,United States,Pending,6
+Headphones,U.K.,Cancelled,2
+television,UK,Delivered,1
+Headphones,United Kingdom,Delivered,2
+TV,Canada,Cancelled,4
+Tablet,CANADA,Pending,2
+Smartphone,Canada,Cancelled,1
+Headphones,France,Delivered,7
+Headphones,USA,Delivered,8
+Laptop,USA,Delivered,6
+Laptop,USA,Processing,4
+SmartPhone,United Kingdom,Pending,6
+television,Germany,Delivered,3
+headphones,U.S.A.,Delivered,8
+laptop,Germany,Delivered,2
+Tablet,USA,Delivered,5
+SmartPhone,Germany,Pending,1
+headphones,United States,Shipped,6
+television,USA,Delivered,2
+television,UK,Delivered,4
+Smartphone,U.S.A.,Shipped,6
+Smartphone,U.S.A.,Shipped,8
+LAPTOP,United States,Processing,8
+Laptop,CANADA,Pending,6
+Headphones,UK,Processing,4
+television,United States,Delivered,8
+headphones,United Kingdom,Delivered,8
+headphones,Canada,Shipped,1
+Tablet,U.S.A.,Pending,4
+Television,UK,Delivered,4
+Headphones,USA,Delivered,7
+television,USA,Delivered,7
+laptop,United Kingdom,Pending,8
+Smartphone,USA,Delivered,5
+Laptop,UK,Delivered,7
+headphones,Canada,Delivered,8
+Tablet,USA,Delivered,9
+laptop,U.K.,Delivered,3
+TV,U.S.A.,Delivered,3
+Tablet,France,Pending,4
+SmartPhone,UK,Delivered,5
+Laptop,CANADA,Pending,1
+TV,U.K.,Delivered,7
+smartphone,USA,Delivered,9
+Television,United Kingdom,Pending,8
+smartphone,France,Shipped,5
+Headphones,United Kingdom,Pending,4
+Tablet,CANADA,Delivered,7
+Tablet,Germany,Processing,5
+Headphones,U.S.A.,Pending,7
+Smartphone,U.S.A.,Processing,1
+Laptop,United Kingdom,Delivered,1
+Laptop,UK,Shipped,3
+Television,CANADA,Pending,2
+Tablet,Germany,Delivered,2
+TV,United States,Delivered,7
+laptop,U.S.A.,Delivered,2
+Laptop,Canada,Pending,4
+Laptop,U.S.A.,Pending,2
+SmartPhone,CANADA,Delivered,6
+Tablet,UK,Shipped,8
+SmartPhone,United Kingdom,Shipped,4
+Smartphone,USA,Shipped,5
+Headphones,United Kingdom,Delivered,4
+SmartPhone,UK,Processing,3
+smartphone,U.K.,Delivered,5
+Television,USA,Processing,9
+SmartPhone,Canada,Shipped,8
+Tablet,Germany,Delivered,8
+Headphones,U.S.A.,Shipped,8
+Headphones,USA,Delivered,8
+Laptop,USA,Processing,7
+Headphones,United Kingdom,Delivered,8
+Smartphone,United Kingdom,Delivered,8
+LAPTOP,UK,Delivered,8
+Smartphone,U.S.A.,Pending,7
+headphones,United States,Cancelled,1
+Smartphone,U.K.,Delivered,4
+SmartPhone,UK,Delivered,4
+Tablet,France,Delivered,5
+laptop,USA,Delivered,6
+Laptop,United Kingdom,Pending,4
+Laptop,UK,Delivered,2
+Laptop,UK,Shipped,6
+laptop,Canada,Delivered,8
+Laptop,United Kingdom,Delivered,8
+Tablet,France,Delivered,7
+laptop,USA,Delivered,6
+SmartPhone,USA,Delivered,2
+Headphones,Canada,Pending,7
+Smartphone,U.K.,Delivered,5
+TV,U.S.A.,Shipped,6
+laptop,USA,Delivered,8
+laptop,USA,Shipped,8
+Laptop,Germany,Pending,3
+laptop,USA,Delivered,7
+LAPTOP,United States,Pending,1
+laptop,U.S.A.,Delivered,1
+Laptop,United States,Shipped,7
+Laptop,USA,Pending,9
+Smartphone,UK,Delivered,7
+laptop,USA,Pending,5
+SmartPhone,CANADA,Shipped,8
+smartphone,U.S.A.,Delivered,2
+TV,UK,Pending,9
+Laptop,Germany,Delivered,6
+Television,United Kingdom,Pending,9
+Tablet,UK,Shipped,2
+Laptop,United States,Delivered,3
+Headphones,United States,Shipped,8
+Headphones,United Kingdom,Pending,1
+Laptop,France,Delivered,7
+LAPTOP,United Kingdom,Shipped,7
+television,U.K.,Delivered,1
+TV,Canada,Shipped,9
+laptop,UK,Delivered,8
+laptop,USA,Cancelled,4
+SmartPhone,U.K.,Delivered,5
+Smartphone,France,Processing,2
+Tablet,USA,Delivered,9
+SmartPhone,United Kingdom,Processing,6
+Smartphone,U.S.A.,Pending,3
+TV,UK,Delivered,7
+Laptop,USA,Delivered,9
+LAPTOP,UK,Delivered,3
+TV,Canada,Delivered,2
+Headphones,United States,Delivered,7
+smartphone,United Kingdom,Pending,7
+smartphone,Canada,Shipped,4
+Laptop,Germany,Delivered,9
+Smartphone,U.S.A.,Delivered,8
+smartphone,United States,Processing,1
+laptop,USA,Delivered,1
+LAPTOP,France,Processing,5
+SmartPhone,Germany,Delivered,6
+Laptop,UK,Shipped,3
+SmartPhone,CANADA,Pending,9
+laptop,UK,Delivered,6
+SmartPhone,United Kingdom,Delivered,4
+Laptop,USA,Pending,7
+Headphones,Canada,Delivered,8
+Tablet,USA,Processing,9
+TV,CANADA,Delivered,6
+Television,Canada,Delivered,6
+Smartphone,Canada,Delivered,8
+Laptop,USA,Shipped,5
+smartphone,United States,Delivered,3
+Tablet,U.S.A.,Delivered,3
+TV,United States,Pending,6
+Smartphone,USA,Delivered,2
+Laptop,Germany,Delivered,6
+LAPTOP,U.K.,Delivered,6
+SmartPhone,United States,Cancelled,8
+Tablet,United States,Shipped,7
+Tablet,UK,Delivered,8
+SmartPhone,United Kingdom,Delivered,9
+headphones,UK,Cancelled,6
+Tablet,Germany,Shipped,3
+laptop,UK,Delivered,3
+Laptop,France,Delivered,1
+laptop,Germany,Shipped,5
+laptop,U.S.A.,Pending,4
+laptop,Germany,Delivered,9
+laptop,USA,Delivered,9
+LAPTOP,CANADA,Shipped,5
+laptop,United States,Delivered,4
+Headphones,Germany,Delivered,7
+Laptop,Germany,Delivered,6
+smartphone,CANADA,Shipped,4
+Smartphone,Canada,Cancelled,2
+headphones,United States,Shipped,1
+Laptop,USA,Delivered,4
+SmartPhone,UK,Pending,4
+headphones,USA,Pending,1
+Headphones,United Kingdom,Delivered,6
+television,United States,Shipped,4
+LAPTOP,France,Delivered,1
+laptop,United Kingdom,Pending,1
+TV,CANADA,Delivered,1
+Headphones,USA,Shipped,8
+Tablet,Germany,Pending,8
+Tablet,Germany,Pending,2
+LAPTOP,UK,Delivered,7
+Television,United Kingdom,Delivered,8
+laptop,Canada,Delivered,8
+SmartPhone,USA,Delivered,7
+Smartphone,UK,Delivered,5
+smartphone,United States,Pending,1
+laptop,USA,Delivered,9
+Laptop,United States,Processing,7
+Tablet,USA,Delivered,2
+LAPTOP,USA,Delivered,6
+Tablet,USA,Shipped,2
+laptop,France,Delivered,1
+Smartphone,UK,Delivered,7
+smartphone,France,Delivered,2
+Laptop,UK,Processing,2
+SmartPhone,United States,Pending,5
+Laptop,UK,Pending,5
+Laptop,UK,Delivered,7
+headphones,USA,Delivered,1
+SmartPhone,United Kingdom,Pending,8
+television,U.S.A.,Shipped,3
+LAPTOP,United Kingdom,Pending,4
+TV,United Kingdom,Shipped,9
+Television,USA,Delivered,4
+Tablet,USA,Delivered,5
+Smartphone,Canada,Shipped,7
+Smartphone,UK,Delivered,4
+SmartPhone,USA,Pending,1
+Headphones,France,Shipped,9
+television,USA,Delivered,4
+headphones,United Kingdom,Processing,9
+Laptop,France,Delivered,6
+TV,U.S.A.,Pending,1
+Headphones,USA,Cancelled,3
+laptop,USA,Delivered,2
+Laptop,United States,Delivered,9
+TV,USA,Delivered,1
+Tablet,United Kingdom,Delivered,9
+television,USA,Shipped,9
+Laptop,UK,Pending,8
+Television,France,Shipped,8
+laptop,CANADA,Shipped,1
+laptop,United Kingdom,Delivered,8
+laptop,United States,Delivered,3
+television,United Kingdom,Delivered,7
+TV,UK,Pending,1
+smartphone,UK,Processing,1
+SmartPhone,USA,Processing,5
+Headphones,Germany,Delivered,5
+SmartPhone,UK,Processing,8
+television,USA,Delivered,7
+Smartphone,United States,Processing,8
+SmartPhone,UK,Pending,6
+Smartphone,CANADA,Delivered,6
+SmartPhone,Canada,Shipped,2
+TV,Canada,Shipped,6
+smartphone,USA,Pending,5
+laptop,UK,Delivered,3
+Headphones,UK,Delivered,6
+SmartPhone,USA,Delivered,8
+smartphone,U.S.A.,Pending,9
+Headphones,Canada,Delivered,1
+Tablet,USA,Delivered,3
+Laptop,UK,Delivered,3
+Headphones,U.S.A.,Delivered,8
+Tablet,USA,Shipped,1
+SmartPhone,U.S.A.,Shipped,5
+Laptop,France,Processing,3
+Television,CANADA,Shipped,2
+Tablet,France,Delivered,8
+smartphone,UK,Cancelled,3
+Headphones,USA,Delivered,7
+Television,UK,Pending,1
+laptop,UK,Pending,6
+SmartPhone,CANADA,Pending,3
+laptop,USA,Delivered,8
+TV,UK,Delivered,6
+Laptop,USA,Pending,2
+Tablet,United States,Processing,6
+Television,Canada,Delivered,7
+Headphones,UK,Shipped,5
+SmartPhone,United States,Delivered,3
+television,United States,Delivered,4
+Laptop,UK,Pending,4
+television,Canada,Shipped,6
+Laptop,Germany,Delivered,1
+SmartPhone,France,Delivered,4
+Television,Canada,Delivered,4
+Laptop,United States,Delivered,1
+laptop,United Kingdom,Pending,9
+TV,UK,Shipped,4
+TV,U.S.A.,Delivered,7
+Tablet,CANADA,Shipped,3
+TV,USA,Pending,3
+smartphone,Germany,Delivered,8
+LAPTOP,UK,Processing,8
+SmartPhone,United Kingdom,Delivered,1
+laptop,United Kingdom,Cancelled,2
+Headphones,Germany,Shipped,8
+Tablet,United Kingdom,Processing,1
+Smartphone,United Kingdom,Shipped,8
+Smartphone,USA,Processing,8
+Headphones,UK,Processing,2
+laptop,USA,Delivered,4
+Tablet,Canada,Processing,6
+smartphone,UK,Delivered,9
+Tablet,United Kingdom,Shipped,8
+Laptop,USA,Delivered,8
+Headphones,USA,Delivered,7
+Headphones,Canada,Pending,9
+Tablet,USA,Delivered,2
+TV,USA,Processing,3
+Headphones,USA,Shipped,8
+TV,France,Delivered,6
+laptop,Canada,Processing,9
+Tablet,United States,Processing,4
+Tablet,U.S.A.,Processing,8
+Smartphone,United States,Delivered,3
+TV,Canada,Processing,3
+Headphones,United Kingdom,Delivered,8
+Headphones,USA,Shipped,5
+Smartphone,USA,Delivered,3
+Laptop,USA,Delivered,1
+headphones,United Kingdom,Shipped,3
+television,Canada,Delivered,9
+Laptop,U.S.A.,Delivered,5
+Headphones,USA,Shipped,2
+Headphones,USA,Delivered,7
+smartphone,France,Delivered,2
+Tablet,U.S.A.,Delivered,4
+SmartPhone,Canada,Pending,7
+Laptop,United Kingdom,Pending,4
+SmartPhone,United States,Delivered,7
+television,U.S.A.,Processing,7
+Laptop,USA,Shipped,1
+SmartPhone,United Kingdom,Delivered,6
+SmartPhone,Canada,Shipped,9
+smartphone,United Kingdom,Shipped,2
+Headphones,UK,Delivered,3
+SmartPhone,USA,Delivered,5
+SmartPhone,France,Pending,9
+TV,Canada,Delivered,4
+Smartphone,U.S.A.,Pending,1
+laptop,France,Delivered,4
+Smartphone,United Kingdom,Delivered,6
+Laptop,U.K.,Pending,5
+laptop,Canada,Shipped,1
+Smartphone,CANADA,Delivered,4
+Smartphone,United Kingdom,Processing,6
+Headphones,USA,Processing,4
+SmartPhone,United States,Pending,9
+Tablet,Germany,Delivered,5
+Tablet,U.S.A.,Delivered,8
+Laptop,United States,Delivered,9
+TV,UK,Delivered,5
+laptop,UK,Processing,6
+headphones,United Kingdom,Processing,1
+Laptop,Germany,Delivered,7
+Smartphone,U.S.A.,Delivered,4
+Laptop,USA,Delivered,2
+headphones,USA,Shipped,5
+smartphone,Germany,Delivered,3
+Tablet,United Kingdom,Delivered,6
+Laptop,U.S.A.,Delivered,8
+TV,CANADA,Shipped,7
+laptop,Germany,Shipped,3
+Headphones,CANADA,Processing,8
+laptop,Germany,Pending,2
+laptop,U.S.A.,Delivered,9
+Laptop,Canada,Shipped,4
+Smartphone,UK,Pending,1
+Tablet,CANADA,Pending,8
+Laptop,Canada,Shipped,7
+Television,Canada,Cancelled,5
+Smartphone,United Kingdom,Shipped,5
+smartphone,USA,Processing,7
+Smartphone,UK,Delivered,5
+Smartphone,France,Delivered,8
+Tablet,Germany,Delivered,6
+laptop,USA,Delivered,5
+laptop,USA,Delivered,9
+Headphones,USA,Shipped,2
+Headphones,Canada,Delivered,1
+SmartPhone,CANADA,Cancelled,8
+LAPTOP,U.S.A.,Processing,3
+Tablet,UK,Cancelled,7
+Smartphone,CANADA,Delivered,8
+Laptop,Canada,Delivered,6
+laptop,UK,Delivered,9
+TV,U.K.,Delivered,7
+TV,UK,Shipped,5
+Laptop,U.S.A.,Delivered,8
+laptop,U.K.,Shipped,2
+laptop,United Kingdom,Shipped,7
+TV,Germany,Cancelled,4
+Laptop,United Kingdom,Shipped,9
+Laptop,Canada,Pending,1
+Television,USA,Pending,7
+laptop,UK,Processing,6
+TV,USA,Delivered,8
+laptop,U.S.A.,Delivered,5
+Laptop,Canada,Delivered,1
+laptop,France,Delivered,1
+TV,USA,Shipped,9
+Headphones,UK,Delivered,6
+television,CANADA,Delivered,5
+SmartPhone,U.S.A.,Delivered,1
+TV,U.K.,Shipped,6
+laptop,Canada,Cancelled,6
+LAPTOP,United Kingdom,Delivered,3
+Headphones,USA,Shipped,8
+Laptop,United States,Delivered,1
+Laptop,Canada,Pending,1
+laptop,U.K.,Pending,6
+Laptop,USA,Delivered,1
+laptop,Canada,Pending,6
+Tablet,USA,Delivered,1
+Smartphone,Canada,Delivered,6
+Headphones,U.S.A.,Pending,3
+television,France,Processing,8
+SmartPhone,United States,Shipped,6
+LAPTOP,United States,Shipped,1
+SmartPhone,USA,Shipped,5
+Tablet,United States,Shipped,8
+LAPTOP,Germany,Pending,3
+Tablet,France,Delivered,6
+Smartphone,United States,Processing,5
+Tablet,UK,Shipped,6
+Smartphone,Canada,Delivered,1
+LAPTOP,Germany,Delivered,7
+Headphones,U.K.,Delivered,9
+Television,United States,Delivered,2
+Laptop,UK,Shipped,5
+Headphones,United Kingdom,Shipped,4
+Smartphone,USA,Delivered,6
+Headphones,United Kingdom,Delivered,6
+Television,United States,Shipped,2
+Smartphone,Canada,Delivered,2
+Laptop,USA,Processing,4
+LAPTOP,U.K.,Delivered,1
+smartphone,UK,Processing,9
+Tablet,United Kingdom,Delivered,7
+LAPTOP,USA,Delivered,7
+Laptop,U.K.,Delivered,3
+television,U.K.,Delivered,3
+headphones,U.K.,Pending,1
+smartphone,United Kingdom,Delivered,3
+laptop,United Kingdom,Delivered,3
+LAPTOP,CANADA,Shipped,4
+Laptop,U.S.A.,Delivered,4
+Headphones,CANADA,Delivered,3
+Laptop,UK,Processing,8
+Tablet,USA,Pending,8
+LAPTOP,USA,Shipped,1
+Tablet,United States,Delivered,7
+TV,Canada,Shipped,2
+television,Canada,Delivered,1
+laptop,Canada,Delivered,3
+Laptop,UK,Pending,4
+Laptop,UK,Delivered,6
+Headphones,USA,Delivered,5
+Headphones,United States,Delivered,4
+Tablet,UK,Processing,8
+Tablet,USA,Delivered,4
+TV,U.S.A.,Delivered,2
+laptop,U.K.,Delivered,3
+Headphones,Canada,Delivered,6
+Smartphone,France,Processing,8
+SmartPhone,Germany,Delivered,8
+smartphone,United Kingdom,Delivered,9
+Laptop,UK,Cancelled,7
+laptop,United Kingdom,Shipped,2
+TV,Canada,Delivered,8
+Laptop,USA,Shipped,7
+Tablet,UK,Shipped,8
+laptop,CANADA,Shipped,3
+SmartPhone,United States,Processing,7
+LAPTOP,U.K.,Cancelled,9
+SmartPhone,U.K.,Delivered,3
+TV,USA,Delivered,6
+LAPTOP,United States,Delivered,2
+Tablet,United States,Processing,2
+Smartphone,USA,Delivered,5
+TV,USA,Delivered,5
+Headphones,CANADA,Shipped,7
+TV,U.S.A.,Delivered,2
+laptop,UK,Delivered,7
+Laptop,U.S.A.,Delivered,5
+LAPTOP,Germany,Pending,6
+Tablet,U.S.A.,Delivered,8
+Laptop,UK,Pending,4
+Smartphone,Germany,Delivered,7
+Tablet,CANADA,Processing,6
+SmartPhone,USA,Delivered,2
+Television,CANADA,Shipped,8
+Laptop,UK,Delivered,9
+Laptop,UK,Delivered,5
+TV,USA,Delivered,4
+Smartphone,USA,Processing,6
+TV,Canada,Pending,8
+Smartphone,UK,Delivered,3
+laptop,UK,Delivered,1
+television,Canada,Cancelled,4
+Television,Canada,Shipped,4
+TV,USA,Delivered,1
+LAPTOP,United Kingdom,Delivered,9
+Tablet,USA,Delivered,3
+SmartPhone,Canada,Pending,5
+Laptop,United Kingdom,Cancelled,6
+Headphones,France,Shipped,8
+Laptop,USA,Shipped,6
+headphones,USA,Shipped,3
+Smartphone,U.S.A.,Cancelled,6
