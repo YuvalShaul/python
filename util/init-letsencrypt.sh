@@ -17,8 +17,8 @@ sudo apt install -y certbot
 
 # Get the certificate
 sudo certbot certonly --standalone \
-    -d commtact.yuval.guide \
-    --email your-email@domain.com \
+    -d <- your server name here -> \
+    --email yuval.shaul@gmail.com \
     --agree-tos \
     --non-interactive
 

@@ -7,7 +7,7 @@ After initial preparations and running the server, you will have 30 users:
 - user: student29  pass:student29
 - user: student3  pass:student30
 and also:  
-user: yuval password:yuval  
+user: yuval password:<....>  
 which is the admin.  
 
 
@@ -27,6 +27,10 @@ git clone https://github.com/YuvalShaul/python.git
 cd python/util
 source install_docker_ubuntu
 ```
+## Replace customer name
+- inside nginx directory, in all conf files
+- inside init-letsecrypt.sh  file
+
 ## HTTPS Setup
 - Run the HTTPS setup script (this will automatically stop Apache if it's running):
 ```
@@ -47,7 +51,7 @@ docker compose build
 ```
 docker compose up -d
 ```
-You can now access JupyterHub securely at https://commtact.yuval.guide
+You can now access JupyterHub securely at https://<- your server name here ->
 
 ## Get student passwords
 - type:  
