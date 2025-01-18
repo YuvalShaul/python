@@ -1,0 +1,34 @@
+Country,City,District,Population,Temperature,Rainfall,GDP_per_capita,Air_Quality_Index
+USA,New York,Manhattan,1921958,23.0,1794,74732,50
+USA,New York,Brooklyn,2254886,19.5,1738,67194,53
+USA,New York,Queens,2041090,15.2,1269,32433,93
+USA,Los Angeles,Downtown,503355,21.8,959,49769,51
+USA,Los Angeles,Hollywood,271932,24.3,974,55658,71
+USA,Los Angeles,Santa Monica,108431,22.3,1475,30189,91
+USA,Chicago,Loop,284654,19.3,1767,61551,32
+USA,Chicago,Lincoln Park,153556,19.1,520,44502,47
+Canada,Toronto,Downtown,210627,21.0,513,38433,38
+Canada,Toronto,North York,323897,6.7,1863,53483,73
+Canada,Vancouver,Downtown,217159,8.4,705,65920,65
+Canada,Vancouver,Kitsilano,101585,16.0,1525,31021,35
+UK,London,Westminster,293573,15.5,1202,36873,73
+UK,London,Camden,200161,14.0,1495,62606,77
+UK,Manchester,City Centre,161534,8.9,1775,31016,91
+France,Paris,Le Marais,174276,15.9,837,47262,82
+France,Paris,Montmartre,201271,15.6,1263,69099,70
+Germany,Berlin,Mitte,388044,17.6,564,78984,38
+Germany,Berlin,Kreuzberg,252027,11.5,1586,35258,37
+Japan,Tokyo,Shinjuku,313986,22.9,878,68660,70
+Japan,Tokyo,Shibuya,252251,23.6,1279,78033,62
+Japan,Tokyo,Ginza,339135,18.7,1304,60818,73
+Japan,Osaka,Umeda,263335,18.6,1460,62482,76
+Japan,Osaka,Namba,229309,26.0,1528,63270,43
+China,Shanghai,Pudong,5090982,15.6,706,51518,71
+China,Shanghai,Puxi,4523419,16.6,1363,71523,33
+China,Beijing,Chaoyang,3911357,12.5,730,31678,72
+South Korea,Seoul,Gangnam,533827,24.1,1766,52299,95
+South Korea,Seoul,Hongdae,364044,14.4,1512,32693,57
+Australia,Sydney,CBD,295259,20.2,1863,78925,91
+Australia,Sydney,Bondi,121834,21.2,1871,51976,91
+Australia,Melbourne,CBD,203776,17.7,1806,36776,32
+Australia,Melbourne,St Kilda,97526,16.6,1934,59320,91
