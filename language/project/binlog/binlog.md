@@ -20,11 +20,11 @@ Each log message in the file should be structured as follows:
 #### 1. Create a LogSeverity Enum
 Define severity levels:
 
-DEBUG = 1
-INFO = 2
-WARNING = 3
-ERROR = 4
-CRITICAL = 5
+DEBUG = 1  
+INFO = 2  
+WARNING = 3  
+ERROR = 4  
+CRITICAL = 5  
 
 #### 2. Implement LogMessage Class
 Create a class that represents a single log message with:
