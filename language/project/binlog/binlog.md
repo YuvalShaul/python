@@ -17,7 +17,7 @@ Each log message in the file should be structured as follows:
 - dataclasses (optional): for message class implementation
 
 ### Implementation Requirements
-1. Create a LogSeverity Enum
+#### 1. Create a LogSeverity Enum
 Define severity levels:
 
 DEBUG = 1
@@ -26,13 +26,12 @@ WARNING = 3
 ERROR = 4
 CRITICAL = 5
 
-2. Implement LogMessage Class
+#### 2. Implement LogMessage Class
 Create a class that represents a single log message with:
-
-Properties for timestamp, severity, and message data
-Method to pack the message into bytes
-Method to unpack bytes into a message
-String representation method
+- Properties for timestamp, severity, and message data
+- Method to pack the message into bytes
+- Method to unpack bytes into a message
+- String representation method
 
 3. Implement Binary Logger
 Create a class that handles file operations with methods to:
