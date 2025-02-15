@@ -28,7 +28,7 @@ CRITICAL = 5
 
 #### 2. Implement LogMessage Class
 Create a class that represents a single log message with:
-- Properties for timestamp, severity, and message data
+- Properties for msg_length, timestamp, severity, and message data
 - Method to pack the message into bytes
 - Method to unpack bytes into a message
 - String representation method
