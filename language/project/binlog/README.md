@@ -75,3 +75,22 @@ Create test cases for:
 - binary_logger.py: Binary logging implementation
 - test_binary_logger.py: Test suite
 - Documentation explaining your implementation choices
+
+
+### Hints
+
+- - do not supply a total msg length, your LogMessage should compute it itself
+- You can use ContextManager in your BinaryLogger class.
+  (you should add __enter__()  and __exit__()  methods, open the file in __enter__ and close in __exit__)
+  so that you could:
+
+with BinaryLogger('dump1.log') as bfl:
+    ...
+    msg1 = LogMessage( ...)
+    bfl.append_log(msg1)
+ 
+- plan your BinaryLogger methods:
+    - append_log
+
+- You can add a default time in LogMessage, so that if you don't supply that the class will create it itself
+  (so data and severity is all that is needed)
