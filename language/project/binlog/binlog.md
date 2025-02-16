@@ -33,19 +33,18 @@ Create a class that represents a single log message with:
 - Method to unpack bytes into a message
 - String representation method
 
-3. Implement Binary Logger
+#### 3. Implement Binary Logger
 Create a class that handles file operations with methods to:
 
-Write a new message to the end of the file
-Read messages one by one
-Search for messages by:
+- Write a new message to the end of the file
+- Read messages one by one
+- Search for messages by:
+  - Severity level
+  - Timestamp range
+  - Combination of severity and timestamp
 
-Severity level
-Timestamp range
-Combination of severity and timestamp
 
-
-4. Error Handling Requirements
+#### 4. Error Handling Requirements
 
 - Handle file not found
 - Handle corrupted message format
@@ -71,8 +70,8 @@ Create test cases for:
 
 ### Deliverables
 
-log_severity.py: Enum definitions  
-log_message.py: LogMessage class implementation  
-binary_logger.py: Binary logging implementation  
-test_binary_logger.py: Test suite  
-Documentation explaining your implementation choices  
+- log_severity.py: Enum definitions
+- log_message.py: LogMessage class implementation
+- binary_logger.py: Binary logging implementation
+- test_binary_logger.py: Test suite
+- Documentation explaining your implementation choices
